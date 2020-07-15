@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html, body, .Login-component {
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(126, 129, 131, 0.5)), to(rgba(229, 233, 229, 0.5)));
+  background-image: linear-gradient(to top, rgba(41, 44, 46, 0.938), rgba(30, 35, 36, 0.1));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,48 @@
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #999;
+}
+
+
+.App{
+    margin: 100px;
+    margin-top: 10px;
+    margin-left: 430px;
+    padding: 80px;
+    height: 470px;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+body{
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(126, 129, 131, 0.5)), to(rgba(229, 233, 229, 0.5))), url("images/about.jpg");
+  background-image: linear-gradient(to top, rgba(41, 44, 46, 0.938), rgba(30, 35, 36, 0.1));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.input{
+    font-size: 15px;
+    font-family: cursive;
+    padding: 1px;
+}
+
+.add{
+    font-size: 20px;
+    font-family: cursive;
+}
